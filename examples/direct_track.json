@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-01T09:00:00+00:00",
+  "event_type": "Track",
+  "loco_number": "DEMO-TRAM-001",
+  "device_id": "DEMO-UNIT-01",
+  "cabin_type": "A",
+  "latitude": "0.1234",
+  "longitude": "0.5678",
+  "speed": "12.5",
+  "is_adas_button_on": "true",
+  "m_danger_obj_status": "Error",
+  "m_trafficlight_status": "Error",
+  "m_speed_limit_status": "Error",
+  "ubloxGps": "true",
+  "leftImage": "false",
+  "multiImages": "true",
+  "minsEth": "true",
+  "roadModel": "true",
+  "dbwFbTram": "true",
+  "tramPlannerService": "true"
+}
