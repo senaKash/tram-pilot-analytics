@@ -1,3 +1,8 @@
-# CSV.GZ pipeline: no third-party Python packages required.
+# The existing CSV.GZ scripts still use only the standard library.
 # Use Python 3.14+ for built-in Zstandard, or Python 3.10+ with zstd on PATH.
 # Optional --format parquet requires a separate pyarrow installation.
+psycopg[binary]>=3.2,<4
+psycopg_pool>=3.2,<4
+streamlit>=1.66,<2
+plotly>=6,<7
+pandas>=2.2,<4

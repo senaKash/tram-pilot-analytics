@@ -41,9 +41,15 @@ htmlcov/
 *.bak
 .env
 .env.*
+!.env.example
 *.pem
 *.key
-.streamlit/
+.streamlit/*
+!.streamlit/config.toml
+/start_local.bat
+/docs/images/
+*.png
+*.jpg
 .idea/
 .vscode/
 .DS_Store
